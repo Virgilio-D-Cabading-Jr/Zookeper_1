@@ -3,8 +3,8 @@ package com.vcabading.zookeeper1;
 public class Mammal {
 	private int energyLevel;
 	
+	//	//// CONSTRUCTORS //////////////////////////////////////////
 	public Mammal() {
-		
 	}
 
 	//	//// GETTERS & SETTERS /////////////////////////////////////
