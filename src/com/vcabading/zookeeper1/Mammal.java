@@ -11,8 +11,9 @@ public class Mammal {
 	
 	//	//// SHOW //////////////////////////////////////////////////
 	
-	pblic void displayEnergy() {
+	pblic int displayEnergy() {
 		System.out.printf("%S - %d\n", this.animalType, this.energyLevel));
+		return this.energyLevel;
 	}
 
 	//	//// GETTERS & SETTERS /////////////////////////////////////
