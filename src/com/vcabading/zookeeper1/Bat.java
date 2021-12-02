@@ -29,5 +29,12 @@ public class Bat extends Mammal {
 		System.out.println("nom nom nom nom");
 		this.energyLevel += 25;
 	}
+		
+	//	---- Attack Town -----------------------------------------
+	//			when a bat attacks a town, its energy increases by 100
+	public void attackTown() {
+		System.out.println("hh crack hhHh crack hhh crack");
+		this.energyLevel += 100;
+	}
 
 }

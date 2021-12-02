@@ -59,6 +59,9 @@ public class ZookeeperApp {
 		bat.displayEnergy();
 		bat.eatHumans();
 		bat.displayEnergy();
+		
+		System.out.println("\n*************************************************");
+		System.out.println("Bat Attacks Towns thrice:\n");
 	}
 
 }
