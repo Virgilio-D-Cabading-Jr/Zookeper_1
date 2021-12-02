@@ -6,18 +6,19 @@ package com.vcabading.zookeeper1;
 //	////////////////////////////////////////////////////////////////
 
 public class Mammal {
-	private int energyLevel;
-	private String animalType;
+	protected int energyLevel;
+	protected String animalType;
 	
 	//	//// CONSTRUCTORS //////////////////////////////////////////
 	public Mammal() {
 		this.animalType = "Mammal";
+		this.energyLevel = 100;
 	}
 	
 	//	//// SHOW //////////////////////////////////////////////////
 	
-	pblic int displayEnergy() {
-		System.out.printf("%S - %d\n", this.animalType, this.energyLevel));
+	public int displayEnergy() {
+		System.out.printf("%s :: energy: %d\n", this.animalType, this.energyLevel);
 		return this.energyLevel;
 	}
 

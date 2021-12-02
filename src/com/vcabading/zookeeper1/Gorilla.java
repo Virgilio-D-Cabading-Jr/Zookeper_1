@@ -20,7 +20,8 @@ public class Gorilla extends Mammal {
 	//	//// ACTIONS ////////////////////////////////////
 	
 	public void throwSomething() {
-		
+		System.out.printf(".:: %s has thrown something ::.\n\n", this.animalType);
+		this.energyLevel -= 5;
 	}
 	
 	public void eatBananas() {
