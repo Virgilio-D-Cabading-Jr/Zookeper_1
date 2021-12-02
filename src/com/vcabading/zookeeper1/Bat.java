@@ -10,6 +10,7 @@ public class Bat extends Mammal {
 	//	//// CONSTRUCTORS ////////////////////////////////////////
 	public Bat() {
 		super();
+		this.energyLevel = 300;							// Bat has default 300 energy
 	}
 	
 	//	//// ACTIONS /////////////////////////////////////////////

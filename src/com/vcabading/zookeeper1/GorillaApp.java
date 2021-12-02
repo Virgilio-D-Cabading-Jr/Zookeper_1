@@ -40,6 +40,11 @@ public class GorillaApp {
 		System.out.println("Gorilla climbs a tree:\n");
 		gorilla.climb();
 		gorilla.displayEnergy();
+		
+		System.out.println("\n*************************************************");
+		System.out.println("Create a Bat:\n");
+		Bat bat = new Bat();
+		bat.displayEnergy();
 	}
 
 }
