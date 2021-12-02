@@ -22,8 +22,18 @@ public class GorillaApp {
 		gorilla.displayEnergy();
 		
 		System.out.println("\n*************************************************");
-		System.out.println("Gorilla Throws something:\n");
+		System.out.println("Gorilla Throws 3 somethings:\n");
 		gorilla.throwSomething();
+		gorilla.displayEnergy();
+		gorilla.throwSomething();
+		gorilla.throwSomething();
+		gorilla.displayEnergy();
+		
+		System.out.println("\n*************************************************");
+		System.out.println("Gorilla Eats 2 bananas:\n");
+		gorilla.eatBananas();
+		gorilla.displayEnergy();
+		gorilla.eatBananas();
 		gorilla.displayEnergy();
 	}
 

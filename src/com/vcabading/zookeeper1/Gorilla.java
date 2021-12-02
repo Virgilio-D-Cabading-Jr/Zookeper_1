@@ -18,12 +18,13 @@ public class Gorilla extends Mammal {
 	//	//// ACTIONS ////////////////////////////////////
 	
 	public void throwSomething() {
-		System.out.printf(".:: %s has thrown something ::.\n\n", this.animalType);
+		System.out.printf(".:: %s has thrown something ::.\n", this.animalType);
 		this.energyLevel -= 5;
 	}
 	
 	public void eatBananas() {
-		System.out.printf(".:: ", null)
+		System.out.printf(".:: %s is satisfied with eating a banana ::.\n", this.animalType);
+		this.energyLevel += 10;
 		
 	}
 	
