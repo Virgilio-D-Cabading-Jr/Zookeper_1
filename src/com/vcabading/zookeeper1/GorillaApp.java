@@ -11,12 +11,20 @@ public class GorillaApp {
 		System.out.println("/////////////////////////////////////////////////");
 		System.out.println("ZOOKEEPER 1: GORILLA APPLICATION\n");
 		
-		Mammal mammal = new Mammal();
-		
 		System.out.println("*************************************************");
 		System.out.println("Created a mammal");
+		Mammal mammal = new Mammal();
 		mammal.displayEnergy();
 
+		System.out.println("\n*************************************************");
+		System.out.println("Created a gorilla");
+		Gorilla gorilla = new Gorilla();
+		gorilla.displayEnergy();
+		
+		System.out.println("\n*************************************************");
+		System.out.println("Gorilla Throws something: \n");
+		gorilla.toString();
+		gorilla.displayEnergy();
 	}
 
 }

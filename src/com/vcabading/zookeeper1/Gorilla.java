@@ -11,11 +11,11 @@ public class Gorilla extends Mammal {
 	
 	//	//// CONSTRUCTOR ////////////////////////////////
 	
-	public String getAnimalType() {
-		return animalType;
+	public Gorilla() {
+		super();
+		this.animalType = "Gorilla";
 	}
 
-	}
 	
 	//	//// ACTIONS ////////////////////////////////////
 	
@@ -38,6 +38,8 @@ public class Gorilla extends Mammal {
 		this.animalType = animalType;
 	}
 	
-	public Gorilla() {
-		this.animalType = "Gorilla";
+	public String getAnimalType() {
+		return animalType;
+	}
+	
 }
