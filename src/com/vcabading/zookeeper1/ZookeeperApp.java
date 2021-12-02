@@ -1,11 +1,11 @@
 package com.vcabading.zookeeper1;
 
 //////////////////////////////////////////////////////////////////
-//	GORILLA APPLICATION
+//	ZOOKEEPER APPLICATION
 //By: Virgilio D. Cabading Jr.
 //////////////////////////////////////////////////////////////////
 
-public class GorillaApp {
+public class ZookeeperApp {
 
 	public static void main(String[] args) {
 		System.out.println("/////////////////////////////////////////////////");
@@ -44,6 +44,13 @@ public class GorillaApp {
 		System.out.println("\n*************************************************");
 		System.out.println("Create a Bat:\n");
 		Bat bat = new Bat();
+		bat.displayEnergy();
+		
+		System.out.println("\n*************************************************");
+		System.out.println("Bat Flies twice:\n");
+		bat.fly();
+		bat.displayEnergy();
+		bat.fly();
 		bat.displayEnergy();
 	}
 

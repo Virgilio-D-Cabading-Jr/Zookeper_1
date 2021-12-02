@@ -11,10 +11,23 @@ public class Bat extends Mammal {
 	public Bat() {
 		super();
 		this.energyLevel = 300;							// Bat has default 300 energy
+		this.animalType = "Bat";
 	}
 	
 	//	//// ACTIONS /////////////////////////////////////////////
 	
+	//	---- Fly -------------------------------------------------
+	//			when a bat flies it flaps its wings and loses 50 energy
+	public void fly() {
+		System.out.println("flap flap flap flap");
+		this.energyLevel -= 50;
+	}
 	
+	//	---- Eat Humans ------------------------------------------
+	//			when a bat eats humans, its energy increases by 25
+	public void eatHumans() {
+		System.out.println("nom nom nom nom");
+		this.energyLevel += 25;
+	}
 
 }
