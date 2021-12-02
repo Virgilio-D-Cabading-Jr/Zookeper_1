@@ -2,6 +2,16 @@ package com.vcabading.zookeeper1;
 
 public class Gorilla extends Mammal {
 
+	private String animalType;
+	
+	//	//// CONSTRUCTOR ////////////////////////////////
+	
+	public String getAnimalType() {
+		return animalType;
+	}
+
+	}
+	
 	//	//// ACTIONS ////////////////////////////////////
 	
 	public void throwSomething() {
@@ -15,6 +25,13 @@ public class Gorilla extends Mammal {
 	public void clinb() {
 		
 	}
+
+	//	//// GET AND SET ////////////////////////////////
 	
+	public void setAnimalType(String animalType) {
+		this.animalType = animalType;
+	}
 	
+	public Gorilla() {
+		this.animalType = "Gorilla";
 }
