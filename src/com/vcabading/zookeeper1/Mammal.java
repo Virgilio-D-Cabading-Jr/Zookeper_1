@@ -7,11 +7,10 @@ package com.vcabading.zookeeper1;
 
 public class Mammal {
 	protected int energyLevel;
-	protected String animalType;
+	protected String animalType = "Mammal"; 
 	
 	//	//// CONSTRUCTORS //////////////////////////////////////////
 	public Mammal() {
-		this.animalType = "Mammal";
 		this.energyLevel = 100;
 	}
 	

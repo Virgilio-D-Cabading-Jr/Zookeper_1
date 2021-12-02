@@ -6,8 +6,6 @@ package com.vcabading.zookeeper1;
 //////////////////////////////////////////////////////////////////
 
 public class Gorilla extends Mammal {
-
-	private String animalType;
 	
 	//	//// CONSTRUCTOR ////////////////////////////////
 	
@@ -25,6 +23,7 @@ public class Gorilla extends Mammal {
 	}
 	
 	public void eatBananas() {
+		System.out.printf(".:: ", null)
 		
 	}
 	

@@ -22,8 +22,8 @@ public class GorillaApp {
 		gorilla.displayEnergy();
 		
 		System.out.println("\n*************************************************");
-		System.out.println("Gorilla Throws something: \n");
-		gorilla.toString();
+		System.out.println("Gorilla Throws something:\n");
+		gorilla.throwSomething();
 		gorilla.displayEnergy();
 	}
 
