@@ -1,5 +1,10 @@
 package com.vcabading.zookeeper1;
 
+//	////////////////////////////////////////////////////////////////
+//	MAMMAL CLASS
+//	By: Virgilio D. Cabading Jr.
+//	////////////////////////////////////////////////////////////////
+
 public class Mammal {
 	private int energyLevel;
 	private String animalType;
@@ -26,5 +31,11 @@ public class Mammal {
 		this.energyLevel = energyLevel;
 	}
 	
-	
+	public String getAnimalType() {
+		return animalType;
+	}
+
+	public void setAnimalType(String animalType) {
+		this.animalType = animalType;
+	}
 }
