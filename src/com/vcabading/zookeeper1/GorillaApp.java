@@ -35,6 +35,11 @@ public class GorillaApp {
 		gorilla.displayEnergy();
 		gorilla.eatBananas();
 		gorilla.displayEnergy();
+		
+		System.out.println("\n*************************************************");
+		System.out.println("Gorilla climbs a tree:\n");
+		gorilla.climb();
+		gorilla.displayEnergy();
 	}
 
 }

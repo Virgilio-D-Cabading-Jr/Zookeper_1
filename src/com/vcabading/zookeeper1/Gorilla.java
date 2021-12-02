@@ -25,12 +25,13 @@ public class Gorilla extends Mammal {
 	public void eatBananas() {
 		System.out.printf(".:: %s is satisfied with eating a banana ::.\n", this.animalType);
 		this.energyLevel += 10;
-		
 	}
 	
-	public void clinb() {
-		
+	public void climb() {
+		System.out.printf(".:: %s has climbed a tree ::.\n", this.animalType);
+		this.energyLevel -= 10;
 	}
+	
 
 	//	//// GET AND SET ////////////////////////////////
 	
