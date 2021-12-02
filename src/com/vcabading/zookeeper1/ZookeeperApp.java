@@ -9,7 +9,7 @@ public class ZookeeperApp {
 
 	public static void main(String[] args) {
 		System.out.println("/////////////////////////////////////////////////");
-		System.out.println("ZOOKEEPER 1: GORILLA APPLICATION\n");
+		System.out.println("ZOOKEEPER APPLICATION\n");
 		
 		System.out.println("*************************************************");
 		System.out.println("Created a mammal");
@@ -62,6 +62,12 @@ public class ZookeeperApp {
 		
 		System.out.println("\n*************************************************");
 		System.out.println("Bat Attacks Towns thrice:\n");
+		bat.attackTown();
+		bat.displayEnergy();
+		bat.attackTown();
+		bat.displayEnergy();
+		bat.attackTown();
+		bat.displayEnergy();
 	}
 
 }
